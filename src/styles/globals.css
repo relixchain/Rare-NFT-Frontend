@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@layer base {
+  html,
+  body,
+  #root {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-x: clip;
+  }
+
+  :root {
+    color-scheme: light;
+  }
+
+  body {
+    margin: 0;
+    @apply bg-slate-50 text-slate-900 antialiased;
+  }
+}

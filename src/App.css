@@ -1,0 +1,6 @@
+/* src/app/App.css */
+/* App-level overrides  */
+
+#root {
+  min-height: 100vh;
+}

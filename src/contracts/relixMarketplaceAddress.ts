@@ -1,0 +1,4 @@
+export const RELIX_MARKETPLACE_ADDRESS: Record<number, `0x${string}`> = {
+  4127: "0xfd00df546E98a898B0b172106f416b3654d5d985",
+  56: "0xb8d0935739eF1850a930590e8C0067E79C36eEE3",
+};
