@@ -1,26 +1,33 @@
-# Rare NFT — Multichain NFT Marketplace
+# Rare-NFT-Frontend
 
-Rare NFT is a multichain NFT marketplace built for the Relix ecosystem.  
-Create, explore, list, and trade NFTs across supported networks (e.g. BSC and Relix Smart Chain).
+A [short one-line description of what the project does] built on BNB Smart Chain (BSC) and compatible with other EVM networks.
 
-- Live site: https://nft.rarecore.net
+## Technology Stack
+
+- Blockchain: BNB Smart Chain + EVM-compatible chains  
+- Smart Contracts: Solidity ^0.x.x  
+- Frontend: [React / Vue / Next.js] + [ethers.js / web3.js / wagmi]  
+- Development: [Hardhat / Foundry / Truffle], OpenZeppelin libraries  
+
+## Supported Networks
+
+- BNB Smart Chain Mainnet (Chain ID: 56)  
+- BNB Smart Chain Testnet (Chain ID: 97)  
+- Ethereum Mainnet (Chain ID: 1)  
+- *(add more if supported)*  
+
+## Contract Addresses
+
+| Network  | Core Contract | Token Contract | (Optional: Vault / Router / Governance) |
+|----------|---------------|----------------|-----------------------------------------|
+| BNB Mainnet | 0x.... | 0x.... | 0x.... |
+| BNB Testnet | 0x.... | 0x.... | 0x.... |
+| Ethereum    | 0x.... | 0x.... | 0x.... |
 
 ## Features
 
-- Multichain NFT browsing (collections & items)
-- Minting and listing flow (wallet-based)
-- Marketplace pages (home, explore, item detail, profile)
-- Optimized UI for desktop & mobile
-
-## Tech Stack
-
-- React + Vite
-- wagmi + viem (wallet & on-chain interactions)
-- ESLint (flat config)
-
-## Getting Started
-
-### 1) Install dependencies
-
-```bash
-npm install
+- [Feature 1: e.g. Low-cost swaps on BNB Chain]  
+- [Feature 2: e.g. Multi-chain token support]  
+- [Feature 3: e.g. Decentralized governance with native token]  
+- [Feature 4: e.g. Security with timelocks and pause control]  
+- [Feature 5: e.g. Gas-efficient design for BNB Smart Chain]  
